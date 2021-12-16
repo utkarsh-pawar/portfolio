@@ -34,7 +34,14 @@
   font-size: 1.65rem;
   color: rgba(0,0,0,0.63);
   transition: ease-out 0.275s;
+  text-decoration: none;
 }
+
+.contact-social a{
+  text-decoration: none;
+}
+
+
 
 .contact-social__links:hover{
   color:var(--secondary-color);

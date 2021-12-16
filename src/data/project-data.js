@@ -11,6 +11,7 @@ export const projectData = [
     img:  googleUi ,
     github: "https://github.com/utkarsh-pawar/google-ui-clone",
     url: "https://google-ui-clone-iota.vercel.app",
+    desc:''
   },
   {
     id: 2,

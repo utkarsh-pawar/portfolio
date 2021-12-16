@@ -6,17 +6,10 @@ import { FaExternalLinkAlt, FaCode } from 'react-icons/fa'
 const Projects = () => {
   return (
     <div className={styles.projects}>
-      {/* <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div>
-            <div className={styles['projects-children']}>1</div> */}
+      <h1>PROJECTS</h1>
       {projectData.map((project) => {
         return <div className={styles["project"]}>
+
           <div className={styles['project-img-div']}>
 
             <div className={styles['project-img']} style={{ background: `url(${project.img})` }}></div>
@@ -24,12 +17,11 @@ const Projects = () => {
           <div className={styles['projects-desc']}>
             <h2>{project.title}</h2>
             <p>{project.desc}</p>
-            <div>
-              <a target="_blank" rel="noreferrer" href={project.github}><FaCode /></a>
-              <a target="_blank" rel="noreferrer" href={project.url}><FaExternalLinkAlt /></a>
+            <div className={styles['project-links']}>
+              <a target="_blank" rel="noreferrer" href={project.github}><FaCode className={styles['project-links__icon']} /></a>
+              <a target="_blank" rel="noreferrer" href={project.url}><FaExternalLinkAlt className={styles['project-links__icon']} /></a>
             </div>
           </div>
-
 
         </div>;
       })}
