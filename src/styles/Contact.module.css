@@ -33,6 +33,7 @@
   padding: 1rem;
   font-size: 1.65rem;
   color: rgba(0,0,0,0.63);
+  transition: ease-out 0.275s;
 }
 
 .contact-social__links:hover{

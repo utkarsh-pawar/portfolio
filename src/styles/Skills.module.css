@@ -39,6 +39,7 @@
   font-size: 2.5rem;
   margin: 0.25rem;
   color: rgba(61, 56, 56, 0.842);
+  transition: ease-out 0.275s;
 }
 .skills-logo{
   font-size:3.5rem;
