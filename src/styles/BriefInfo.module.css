@@ -1,0 +1,23 @@
+.brief-info{
+    /* margin-top: 5rem; */
+    font-size: 1.25rem;
+    display: flex;
+    margin:auto;
+   justify-content: center;
+   align-items: center;
+   height: 30rem;
+   background-color: var(--primary-color);
+   color: var(--base-color);
+}
+
+.brief-info__text{
+    text-align: center;
+    margin-top: -10rem;
+    width: 50rem;
+    max-width: 90%;
+}
+
+.brief-info__text > div{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
